@@ -1,0 +1,76 @@
+.table-container {
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  cursor: pointer;
+}
+
+th:hover {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.add-participant {
+  display: flex;
+  justify-content: end;
+  margin-right: calc(20% - 110px);
+}
+
+button {
+  margin: 2px;
+}
+
+.input-field {
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.input-field label {
+  padding: 0 20px 0 0;
+  font-weight: bold;
+}
+
+.input-field input {
+  padding: 10px;
+  margin-top: 10px;
+  width: 80%;
+}
+
+.action-button {
+  padding: 8px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #606264;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background-color: #303238;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
